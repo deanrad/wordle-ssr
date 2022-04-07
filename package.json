@@ -1,15 +1,35 @@
 {
-  "name": "next-app",
+  "name": "wordle-ssr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "^12.1.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "classnames": "^2.3.1",
+    "grapheme-splitter": "^1.0.4",
+    "next": "12.1.0",
+    "omnibus-react": "^0.3.1",
+    "omnibus-rxjs": "^1.0.3",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "typescript-fsa": "^3.0.0",
+    "ua-parser-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.39",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "4.6.2"
   }
 }
